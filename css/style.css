@@ -76,7 +76,7 @@ li{
 /* top content */
 
 .top-content{
-  padding: 4%;
+  padding: 4% 4% 4% 0;
 }
 
 .sottotitolo{
@@ -111,6 +111,8 @@ aside, section{
 .main-content{
   border-radius: 10px;
   margin-left: 1%;
+  margin-right: 1%;
+  width: 50%;
 }
 
 /* colonna destra foto */
@@ -135,5 +137,8 @@ footer{
 p{
   color: #a2a2a2;
   font-size: 12px;
-  width: 400px;
+}
+
+#p-jumbo{
+  color: white;
 }
