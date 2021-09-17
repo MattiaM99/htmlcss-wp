@@ -80,7 +80,7 @@ li{
 }
 
 .sottotitolo{
-  color: #a2a2a2; ;
+  color: #a2a2a2; 
 }
 
 /* corpo pagina */
@@ -98,54 +98,42 @@ aside, section{
 
 .nav-bar, .widget{
   width: 23%;
-  padding: 10%;
 }
 
 /* colonna sinistra foto */
 
 .nav-bar{
-  position:relative;
-  background: url(../img/img-1.jpg) no-repeat ;
-  background-size:contain;
   border-radius: 10px;
-  width: 20%; 
-  height: 200px;
-  top: -32px;
+  margin-right: 1%;
 }
 
 /* colonna centrale foto */
 .main-content{
-  position: relative;
-  background-image: url(../img/banner-2.jpg);
-  background-repeat: no-repeat;
-  background-size:contain;
   border-radius: 10px;
-  height: 200px;
-  width: 50%;
-  padding: 10%;
-  right: -126px;
-  top: -55px;
-  margin-right: 10%;
+  margin-left: 1%;
 }
 
 /* colonna destra foto */
 .widget{
-  position: relative;
-  background-image: url(../img/img-3.jpg);
-  background-repeat: no-repeat;
-  background-size:contain;
   border-radius: 10px;
-  border-radius: 10px;
+  margin-left: 1%; 
+}
+
+.img-main {
   height: 200px;
-  width: 20%;
-  padding: 10%;
-  top: 14%
-  
+  object-fit: contain;
+  width: 100%;
  
 }
 
 footer{
   height: 70px;
   text-align: center;
+  font-weight: bold;
 }
 
+p{
+  color: #a2a2a2;
+  font-size: 12px;
+  width: 400px;
+}
